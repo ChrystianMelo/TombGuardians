@@ -137,5 +137,9 @@ namespace Platformer.Mechanics
             InFlight,
             Landed
         }
+	
+	private void flip(){
+		transform.Rotate(0f,180f,0f);
+	} 
     }
 }
