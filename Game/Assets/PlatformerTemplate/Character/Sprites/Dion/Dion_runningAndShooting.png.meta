@@ -1,0 +1,269 @@
+fileFormatVersion: 2
+guid: c2640637e9d1fc94a997673f833942f2
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Dion_runningAndShooting_0
+    21300002: Dion_runningAndShooting_1
+    21300004: Dion_runningAndShooting_2
+    21300006: Dion_runningAndShooting_3
+    21300008: Dion_runningAndShooting_4
+    21300010: Dion_runningAndShooting_5
+    21300012: Dion_runningAndShooting_6
+    21300014: Dion_runningAndShooting_7
+    21300016: Dion_runningAndShooting_8
+    21300018: Dion_runningAndShooting_9
+    21300020: Dion_runningAndShooting_10
+    21300022: Dion_runningAndShooting_11
+    21300024: Dion_runningAndShooting_12
+    21300026: Dion_runningAndShooting_13
+    21300028: Dion_runningAndShooting_14
+    21300030: Dion_runningAndShooting_15
+    21300032: Dion_runningAndShooting_16
+    21300034: Dion_runningAndShooting_17
+    21300036: Dion_runningAndShooting_18
+    21300038: Dion_runningAndShooting_19
+    21300040: Dion_runningAndShooting_20
+    21300042: Dion_runningAndShooting_21
+    21300044: Dion_runningAndShooting_22
+    21300046: Dion_runningAndShooting_23
+    21300048: Dion_runningAndShooting_24
+    21300050: Dion_runningAndShooting_25
+    21300052: Dion_runningAndShooting_26
+    21300054: Dion_runningAndShooting_27
+    21300056: Dion_runningAndShooting_28
+    21300058: Dion_runningAndShooting_29
+    21300060: Dion_runningAndShooting_30
+    21300062: Dion_runningAndShooting_31
+    21300064: Dion_runningAndShooting_32
+    21300066: Dion_runningAndShooting_33
+    21300068: Dion_runningAndShooting_34
+    21300070: Dion_runningAndShooting_35
+    21300072: Dion_runningAndShooting_36
+    21300074: Dion_runningAndShooting_37
+    21300076: Dion_runningAndShooting_38
+    21300078: Dion_runningAndShooting_39
+    21300080: Dion_runningAndShooting_40
+    21300082: Dion_runningAndShooting_41
+    21300084: Dion_runningAndShooting_42
+    21300086: Dion_runningAndShooting_43
+    21300088: Dion_runningAndShooting_44
+    21300090: Dion_runningAndShooting_45
+    21300092: Dion_runningAndShooting_46
+    21300094: Dion_runningAndShooting_47
+    21300096: Dion_runningAndShooting_48
+    21300098: Dion_runningAndShooting_49
+    21300100: Dion_runningAndShooting_50
+    21300102: Dion_runningAndShooting_51
+    21300104: Dion_runningAndShooting_52
+    21300106: Dion_runningAndShooting_53
+    21300108: Dion_runningAndShooting_54
+    21300110: Dion_runningAndShooting_55
+    21300112: Dion_runningAndShooting_56
+    21300114: Dion_runningAndShooting_57
+    21300116: Dion_runningAndShooting_58
+    21300118: Dion_runningAndShooting_59
+    21300120: Dion_runningAndShooting_60
+    21300122: Dion_runningAndShooting_61
+    21300124: Dion_runningAndShooting_62
+    21300126: Dion_runningAndShooting_63
+    21300128: Dion_runningAndShooting_64
+    21300130: Dion_runningAndShooting_65
+    21300132: Dion_runningAndShooting_66
+    21300134: Dion_runningAndShooting_67
+    21300136: Dion_runningAndShooting_68
+    21300138: Dion_runningAndShooting_69
+    21300140: Dion_runningAndShooting_70
+    21300142: Dion_runningAndShooting_71
+    21300144: Dion_runningAndShooting_72
+    21300146: Dion_runningAndShooting_73
+    21300148: Dion_runningAndShooting_74
+    21300150: Dion_runningAndShooting_75
+    21300152: Dion_runningAndShooting_76
+    21300154: Dion_runningAndShooting_77
+    21300156: Dion_runningAndShooting_78
+    21300158: Dion_runningAndShooting_79
+    21300160: Dion_runningAndShooting_80
+    21300162: Dion_runningAndShooting_81
+    21300164: Dion_runningAndShooting_82
+    21300166: Dion_runningAndShooting_83
+    21300168: Dion_runningAndShooting_84
+    21300170: Dion_runningAndShooting_85
+    21300172: Dion_runningAndShooting_86
+    21300174: Dion_runningAndShooting_87
+    21300176: Dion_runningAndShooting_88
+    21300178: Dion_runningAndShooting_89
+  externalObjects: {}
+  serializedVersion: 9
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Dion_runningAndShooting_0
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 2095
+        width: 354
+        height: 515
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eac16bc34da73fa489541b2ad2f74b14
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dion_runningAndShooting_1
+      rect:
+        serializedVersion: 2
+        x: 2254
+        y: 2095
+        width: 323
+        height: 563
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5e54db4c3b8d3943a5fa8301f4b30b8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dion_runningAndShooting_2
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 495
+        width: 323
+        height: 515
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44118c2a08a3c264d8d93e18268a7c77
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dion_runningAndShooting_3
+      rect:
+        serializedVersion: 2
+        x: 2254
+        y: 495
+        width: 323
+        height: 563
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e71017cf70e95649bdcff7dc12f0c2f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: d216fe336c8dd8e4aba6f3480811ae7a
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

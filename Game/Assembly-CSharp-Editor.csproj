@@ -55,25 +55,25 @@
   <ItemGroup>
      <Compile Include="Assets\PlatformerTemplate\Editor\PatrolPathEditor.cs" />
  <Reference Include="Cinemachine">
- <HintPath>C:/Users/chrys/OneDrive/Área de Trabalho/TombGuardians-master/Game/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+ <HintPath>C:/Users/chrys/OneDrive/Área de Trabalho/Trabalho TP/TombGuardians/Game/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
  </Reference>
  <Reference Include="Unity.InteractiveTutorials.Core">
- <HintPath>C:/Users/chrys/OneDrive/Área de Trabalho/TombGuardians-master/Game/Library/ScriptAssemblies/Unity.InteractiveTutorials.Core.dll</HintPath>
+ <HintPath>C:/Users/chrys/OneDrive/Área de Trabalho/Trabalho TP/TombGuardians/Game/Library/ScriptAssemblies/Unity.InteractiveTutorials.Core.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Postprocessing.Editor">
- <HintPath>C:/Users/chrys/OneDrive/Área de Trabalho/TombGuardians-master/Game/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
+ <HintPath>C:/Users/chrys/OneDrive/Área de Trabalho/Trabalho TP/TombGuardians/Game/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.InteractiveTutorials.Core.Scripts">
- <HintPath>C:/Users/chrys/OneDrive/Área de Trabalho/TombGuardians-master/Game/Library/ScriptAssemblies/Unity.InteractiveTutorials.Core.Scripts.dll</HintPath>
+ <HintPath>C:/Users/chrys/OneDrive/Área de Trabalho/Trabalho TP/TombGuardians/Game/Library/ScriptAssemblies/Unity.InteractiveTutorials.Core.Scripts.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Postprocessing.Runtime">
- <HintPath>C:/Users/chrys/OneDrive/Área de Trabalho/TombGuardians-master/Game/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
+ <HintPath>C:/Users/chrys/OneDrive/Área de Trabalho/Trabalho TP/TombGuardians/Game/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
  </Reference>
  <Reference Include="com.unity.cinemachine.editor">
- <HintPath>C:/Users/chrys/OneDrive/Área de Trabalho/TombGuardians-master/Game/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
+ <HintPath>C:/Users/chrys/OneDrive/Área de Trabalho/Trabalho TP/TombGuardians/Game/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.InteractiveTutorialsFramework">
- <HintPath>C:/Users/chrys/OneDrive/Área de Trabalho/TombGuardians-master/Game/Library/ScriptAssemblies/UnityEditor.InteractiveTutorialsFramework.dll</HintPath>
+ <HintPath>C:/Users/chrys/OneDrive/Área de Trabalho/Trabalho TP/TombGuardians/Game/Library/ScriptAssemblies/UnityEditor.InteractiveTutorialsFramework.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
