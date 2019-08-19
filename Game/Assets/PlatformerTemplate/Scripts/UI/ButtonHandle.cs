@@ -2,14 +2,20 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using System.Linq;
+using System.Text;
+using System.IO;
+
 public class ButtonHandle : MonoBehaviour{
-	static string character = "pattern";
+	//Read from a file
+	//string something = File.ReadAllText("C:\\Rfile.txt");
+
 	public void ChangeScene(string sceneName){
-		character = sceneName;
-		Debug.Log(character);
-		Application.LoadLevel("SampleScene");//sceneName.Substring(0,(sceneName.Length-1)));
-		//scene = sceneName.Substring(0,(sceneName.Length-1));
-		//string args  = sceneName;//.Substring(sceneName.Length-1,sceneName.Length);
-		//SceneManager.LoadScene("SampleScene", args);
+		//Saving data
+		StreamWriter writer = new StreamWriter("SceneArgs.txt");
+    	writer.Write(sceneName);
+    	writer.Close();
+    	//Changing Scene
+		Application.LoadLevel("SampleScene");
 	}
 }

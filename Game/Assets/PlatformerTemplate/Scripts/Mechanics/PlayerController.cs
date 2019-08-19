@@ -5,6 +5,7 @@ using Platformer.Gameplay;
 using static Platformer.Core.Simulation;
 using Platformer.Model;
 using Platformer.Core;
+using System;
 
 namespace Platformer.Mechanics
 {
@@ -17,6 +18,7 @@ namespace Platformer.Mechanics
         public AudioClip jumpAudio;
         public AudioClip respawnAudio;
         public AudioClip ouchAudio;
+        public int playerID;
 
         /// <summary>
         /// Max horizontal speed of the player.
@@ -33,6 +35,7 @@ namespace Platformer.Mechanics
         internal new AudioSource audio;
         internal Health health;
         internal bool controlEnabled = true;
+        //internal GameObject shotPoint;
 
         bool jump;
         Vector2 move;
@@ -56,9 +59,9 @@ namespace Platformer.Mechanics
             if (controlEnabled)
             {
                 move.x = Input.GetAxis("Horizontal");
-                if (jumpState == JumpState.Grounded && Input.GetButtonDown("Jump"))
+                if (jumpState == JumpState.Grounded && ((playerID == 1 && Input.GetButtonDown("Jump")) || (playerID == 2 && Input.GetButtonDown("Jump(X)"))))
                     jumpState = JumpState.PrepareToJump;
-                else if (Input.GetButtonUp("Jump"))
+                else if (((playerID == 1 && Input.GetButtonDown("Jump")) || (playerID == 2 && Input.GetButtonDown("Jump(X)"))))
                 {
                     stopJump = true;
                     Schedule<PlayerStopJump>().player = this;
@@ -140,6 +143,11 @@ namespace Platformer.Mechanics
 	
 	private void flip(){
 		transform.Rotate(0f,180f,0f);
-	} 
+	}
+
+        public static implicit operator PlayerController(Player2Controller v)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

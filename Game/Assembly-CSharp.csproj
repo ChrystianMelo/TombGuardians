@@ -79,6 +79,7 @@
      <Compile Include="Assets\PlatformerTemplate\Scripts\Mechanics\PatrolPath.cs" />
      <Compile Include="Assets\PlatformerTemplate\Scripts\Mechanics\PatrolPath.Mover.cs" />
      <Compile Include="Assets\PlatformerTemplate\Scripts\Mechanics\PlayAudioClip.cs" />
+     <Compile Include="Assets\PlatformerTemplate\Scripts\Mechanics\Player2Controller.cs" />
      <Compile Include="Assets\PlatformerTemplate\Scripts\Mechanics\PlayerController.cs" />
      <Compile Include="Assets\PlatformerTemplate\Scripts\Mechanics\SpawnPoint.cs" />
      <Compile Include="Assets\PlatformerTemplate\Scripts\Mechanics\TokenController.cs" />
