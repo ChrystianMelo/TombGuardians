@@ -15,6 +15,11 @@ public class ButtonHandle : MonoBehaviour{
 		StreamWriter writer = new StreamWriter("SceneArgs.txt");
     	writer.Write(sceneName);
     	writer.Close();
+    	//
+    	StreamReader sr = new StreamReader("SceneArgs.txt");
+        string line = sr.ReadLine();
+        Debug.Log(line);
+    	//
     	//Changing Scene
 		Application.LoadLevel("SampleScene");
 	}
