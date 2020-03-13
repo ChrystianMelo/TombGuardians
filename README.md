@@ -5,7 +5,7 @@ Ashelly Brainer(abrainer1@gmail.com)
 Chrystian Melo (chrys.coltec@gmail.com)
 Filipe Arthur  (lipearthursilva@gmail.com)
 The following text explain the game context.:
-  "Desde o começo da história humana, o mal esteve entre nós. Não estamos falando de "vilões" já conhecidos, como Hitler ou os terroristas do século XXI.
+Desde o começo da história humana, o mal esteve entre nós. Não estamos falando de "vilões" já conhecidos, como Hitler ou os terroristas do século XXI.
 
 Estamos falando dos precursores do caos, seres ou entidades tão poderosos que trouxeram o desespero nas respectivas eras em que surgiram e dominaram :
 
@@ -27,4 +27,4 @@ O mundo, com a derrota do mal, esteve em paz até que, no ano de 2119, o profess
 
 Obcecado por trazer seus irmãos de volta, Alucard criou enormes exércitos de lacaios das trevas e enviou ao mundo sua mensagem : Não descansaria até que o Túmulo fosse destruído e seus antecessores, junto do terror do passado, retornassem.
 
-Em meio a população desesperada por não ter nada para responder, um pequeno grupo de guerreiros se uniu com um único objetivo: impedir Alucard e seu exército de atingirem seu objetivo e, se falharem, derrotar os precursores do caos como foi feito no passado. Esses guerreiros foram conhecidos como os Guardiões do Túmulo."
+Em meio a população desesperada por não ter nada para responder, um pequeno grupo de guerreiros se uniu com um único objetivo: impedir Alucard e seu exército de atingirem seu objetivo e, se falharem, derrotar os precursores do caos como foi feito no passado. Esses guerreiros foram conhecidos como os Guardiões do Túmulo.
