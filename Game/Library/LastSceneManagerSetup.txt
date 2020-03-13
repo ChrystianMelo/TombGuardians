@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/PlatformerTemplate/Scenes/ChooseCharacter.unity
+- path: Assets/PlatformerTemplate/Scenes/GameOver.unity
   isLoaded: 1
   isActive: 1

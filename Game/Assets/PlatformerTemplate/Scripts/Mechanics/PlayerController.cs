@@ -34,10 +34,11 @@ namespace Platformer.Mechanics
         internal new Collider2D collider;
         internal new AudioSource audio;
         internal Health health;
-        internal bool controlEnabled = true;
+        internal bool controlEnabled;
         //internal GameObject shotPoint;
 
         bool jump;
+        private bool flipped = false;
         Vector2 move;
         SpriteRenderer spriteRenderer;
         internal Animator animator;
@@ -52,27 +53,48 @@ namespace Platformer.Mechanics
             collider = GetComponent<Collider2D>();
             spriteRenderer = GetComponent<SpriteRenderer>();
             animator = GetComponent<Animator>();
+            controlEnabled = true;
         }
 
         protected override void Update()
         {
             if (controlEnabled)
             {
-                move.x = Input.GetAxis("Horizontal");
-                if (jumpState == JumpState.Grounded && ((playerID == 1 && Input.GetButtonDown("Jump")) || (playerID == 2 && Input.GetButtonDown("Jump(X)"))))
-                    jumpState = JumpState.PrepareToJump;
-                else if (((playerID == 1 && Input.GetButtonDown("Jump")) || (playerID == 2 && Input.GetButtonDown("Jump(X)"))))
+                if (playerID == 1)
                 {
-                    stopJump = true;
-                    Schedule<PlayerStopJump>().player = this;
+                    move.x = Input.GetAxis("Horizontal");
+                } else
+                {
+                    move.x = Input.GetAxis("Analogico X");
                 }
+
+                
             }
             else
             {
                 move.x = 0;
             }
+            if (jumpState == JumpState.Grounded && ((playerID == 1 && Input.GetButtonDown("Jump")) || (playerID == 2 && Input.GetButtonDown("Jump(X)"))))
+                jumpState = JumpState.PrepareToJump;
+            else if (((playerID == 1 && Input.GetButtonDown("Jump")) || (playerID == 2 && Input.GetButtonDown("Jump(X)"))))
+            {
+                stopJump = true;
+                Schedule<PlayerStopJump>().player = this;
+            }
             UpdateJumpState();
             base.Update();
+            ComputeVelocity();
+            if (move.x < -0.1 && !flipped)
+            {
+                
+                flip();
+            }
+
+            if (move.x > 0.1 && flipped)
+            {
+                flip();
+
+            }
         }
 
         void UpdateJumpState()
@@ -121,10 +143,7 @@ namespace Platformer.Mechanics
                 }
             }
 
-            if (move.x > 0.01f)
-                spriteRenderer.flipX = false;
-            else if (move.x < -0.01f)
-                spriteRenderer.flipX = true;
+            
 
             animator.SetBool("grounded", IsGrounded);
             animator.SetFloat("velocityX", Mathf.Abs(velocity.x) / maxSpeed);
@@ -142,7 +161,9 @@ namespace Platformer.Mechanics
         }
 	
 	private void flip(){
-		transform.Rotate(0f,180f,0f);
+            
+            this.gameObject.transform.Rotate(0f,180f,0f);
+            flipped = !flipped;
 	}
 
         public static implicit operator PlayerController(Player2Controller v)

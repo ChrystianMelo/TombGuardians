@@ -14,6 +14,9 @@ namespace Platformer.Mechanics
     {
         public PatrolPath path;
         public AudioClip ouch;
+        public int health = 100;
+        public int damage = 5;
+        public int pontos = 10;
 
         internal PatrolPath.Mover mover;
         internal AnimationController control;
@@ -36,6 +39,7 @@ namespace Platformer.Mechanics
             var player = collision.gameObject.GetComponent<PlayerController>();
             if (player != null)
             {
+                
                 var ev = Schedule<PlayerEnemyCollision>();
                 ev.player = player;
                 ev.enemy = this;
@@ -44,11 +48,32 @@ namespace Platformer.Mechanics
 
         void Update()
         {
-            if (path != null)
+            
+        }
+
+        public void takeDamage(int damage)
+        {
+            health -= damage;
+            if(health <= 0)
             {
-                if (mover == null) mover = path.CreateMover(control.maxSpeed * 0.5f);
-                control.move.x = Mathf.Clamp(mover.Position.x - transform.position.x, -1, 1);
+                Destroy(this.gameObject);
+                EnemyManager.score += pontos;
+                EnemyManager.contador--;
             }
+            if (damage > 0)
+            {
+                StartCoroutine(IsHurt());
+            }
+
+        }
+
+        IEnumerator IsHurt()
+        {
+            spriteRenderer.material.SetColor("_Color", new Color(1f, 0.5f, 0.5f));
+
+            yield return new WaitForSeconds(0.1f);
+
+            spriteRenderer.material.SetColor("_Color", new Color(1f, 1f, 1f));
         }
 
     }

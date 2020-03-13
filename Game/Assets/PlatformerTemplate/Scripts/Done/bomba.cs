@@ -1,0 +1,47 @@
+﻿using Platformer.Mechanics;
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class bomba : MonoBehaviour
+{
+    public float speed = 1f;
+    public int damage = 75;
+    public Rigidbody2D bomb;
+
+    private void Start()
+    {
+        
+    }
+
+    void Update()
+    {
+        Vector3 posicao = transform.position;
+        Vector3 frente = transform.right;
+        Vector3 movimento = frente * speed;
+
+        transform.position = posicao + movimento;
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        EnemyController atingido = collision.GetComponent<EnemyController>();
+        if (atingido)
+        {
+            atingido.takeDamage(damage);
+            Destroy(this.gameObject);
+        }
+
+        BossHealth chefe = collision.GetComponent<BossHealth>();
+        if (chefe)
+        {
+            chefe.takeDamage(damage);
+            Destroy(this.gameObject);
+        }
+
+        if(collision.CompareTag("Floor"))
+        {
+            Destroy(this.gameObject);
+        }
+    }
+}

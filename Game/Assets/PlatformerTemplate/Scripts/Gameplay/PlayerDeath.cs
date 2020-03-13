@@ -23,7 +23,7 @@ namespace Platformer.Gameplay
                 model.virtualCamera.m_Follow = null;
                 model.virtualCamera.m_LookAt = null;
                 // player.collider.enabled = false;
-                player.controlEnabled = false;
+                //player.controlEnabled = false;
 
                 if (player.audio && player.ouchAudio)
                     player.audio.PlayOneShot(player.ouchAudio);
