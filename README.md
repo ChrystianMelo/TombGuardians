@@ -4,7 +4,7 @@ Developed by
 Ashelly Brainer(abrainer1@gmail.com)
 Chrystian Melo (chrys.coltec@gmail.com)
 Filipe Arthur  (lipearthursilva@gmail.com)
-The text above explain the game context.:
+The following text explain the game context.:
   "Desde o começo da história humana, o mal esteve entre nós. Não estamos falando de "vilões" já conhecidos, como Hitler ou os terroristas do século XXI.
 
 Estamos falando dos precursores do caos, seres ou entidades tão poderosos que trouxeram o desespero nas respectivas eras em que surgiram e dominaram :
