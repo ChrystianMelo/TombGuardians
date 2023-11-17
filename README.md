@@ -1,11 +1,12 @@
 # TombGuardians
+
+## Developed by 
+1. Ashelly Brainer(abrainer1@gmail.com)
+2. Chrystian Melo (chrys.coltec@gmail.com)
+3. Filipe Arthur  (lipearthursilva@gmail.com)
+
+## Instructions
 To play our game you just need to download the project and execute in Unity (Version: 2018.3.14f1).
-Developed by 
-Ashelly Brainer(abrainer1@gmail.com)
-Chrystian Melo (chrys.coltec@gmail.com)
-Filipe Arthur  (lipearthursilva@gmail.com)
-
-
 The following text explain the game context.:
 
 
