@@ -2,7 +2,7 @@
 
 ## Developed by 
 1. Ashelly Brainer(abrainer1@gmail.com)
-2. Chrystian Melo (chrys.coltec@gmail.com)
+2. Chrystian Melo (meloo.chrys@gmail.com)
 3. Filipe Arthur  (lipearthursilva@gmail.com)
 
 ## Instructions
