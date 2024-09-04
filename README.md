@@ -1,7 +1,7 @@
 # TombGuardians
 
 ## Introduction
-Video demonstration: [Tomb Guardian Presenting Video](https://github.com/ChrystianMelo/TombGuardians/blob/master/Apresenta%C3%A7%C3%A3o%20Final.mp4)
+Video demonstration: [Tomb Guardian Presenting Video](https://github.com/ChrystianMelo/TombGuardians/blob/master/Presentation.mp4)
 
 ## Developed by 
 1. Ashelly Brainer (abrainer1@gmail.com)
